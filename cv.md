@@ -56,4 +56,4 @@ Learning through personal projects and independent study
 
 ## Languages
 
-English - Intermediate.
+English - Pre-Intermediate.
