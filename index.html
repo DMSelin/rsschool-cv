@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/img/favicon.ico">
+</head>
+<body class="body">
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main" >
+    <div class="container main-container">
+
+      <section class="section section-profile" id="profile">
+        <img src="./assets/img/Avatar.png" alt="avatar" class="section-profile-logo">
+        <div class="section-profile-title">
+          <h1 class="section-title main-title">Denis Selin</h1>
+          <h3 class="section-subtitle">Junior Front-End Developer</h3>
+        </div>
+      </section>
+
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-item">
+            Nurnberg, Germany
+          </li>
+          <li class="section-item contacts-item">
+            Email: <a href="mailto:dmselin.ws@gmail.com" title="email">dmselin.ws@gmail.com</a>
+          </li>
+          <li class="section-item contacts-item">
+            Github: <a href="https://github.com/dmselin" title="github">dmselin</a>
+          </li>
+          <li class="section-item contacts-item">
+            Discord: <a href="https://discord.com/channels/1393520722264981514/1393520722264981517" title="discord">dmselin</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>Although I graduated as an IT technician in 2018, I didn’t get the chance to start a full-time career in the field. Still, I’ve always tried to stay connected with IT — building websites, creating chatbots, and writing small programs to make my daily tasks easier. Over time, I’ve realized that programming genuinely inspires me, and I’ve made a personal commitment to develop solid, lasting skills to work professionally as a developer in the future.</p>
+        <p>One of my strengths is creativity. While this might not always seem ideal in roles focused strictly on implementation, for me, creativity is what keeps me motivated and helps me avoid burnout. I believe this quality allows me to bring fresh ideas and long-term passion to my work as a programmer.</p>
+      </section>
+
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="section-list">
+          <li class="section-item">Web-development: HTML5, CSS3, JavaScript</li>
+          <li class="section-item">Other languages: Python, Swift</li>
+          <li class="section-item">Version control: Git, GitHub</li>
+          <li class="section-item">Code editor: VS Code, Xcode</li>
+          <li class="section-item">Graphics: Figma</li>
+        </ul>
+      </section>
+
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <pre class="pre"><code>
+function numCombo(arr, num) {
+  const sum = arr.reduce((a, b) => a + b)
+  return arr.filter(x => sum - x == num).length;
+}
+        </code></pre>
+      </section>
+
+      <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <ul class="section-list">
+          <li class="section-item">Online Course – JavaScript Basics
+Instructor: Bogdan Stashchuk (Udemy)</li>
+          <li class="section-item">Self-Study – Python Programming
+Learning through personal projects and independent study</li>
+        </ul>
+      </section>
+
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            <p>first project was a small Bookstore website focused mainly on functionality rather than design. Through this project, I learned how to work with Git, create and query a database, and implement basic CRUD operations and search functionality. It helped me understand the foundation of backend logic and version control.</p>
+            <p><a href="https://github.com/DMSelin/bookstore" title="github">Ссылка на этот проект на Github</a></p></li>
+        </ul>
+      </section>
+
+      <section class="section section-education" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="section-list">
+          <li class="section-item">College of Communications, St. Petersburg Information Systems and Programming — Graduated in 2018</li>
+        </ul>
+      </section>
+
+      <section class="section section-english" id="english">
+        <h2 class="section-title">English</h2>
+        <ul>
+          <li>B1 - Pre-Intermediate</li>
+        </ul> 
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>© 2025<a href="https://github.com/dmselin" class="github nav-link">dmselin</a></div>
+      <a href="https://rs.school/courses/javascript-ru" class="rss"></a>
+    </div>
+  </footer>
+
+</body>
+</html>
