@@ -18,7 +18,7 @@ One of my strengths is creativity. While this might not always seem ideal in rol
 
 ## Skills und Proficiency
 * HTML5, CSS3
-* JavaScript Basics, Python, Swift
+* JavaScript Basics, Python, Swift, C#
 * Git, GitHub
 * VS Code, Xcode
 * Figma
@@ -56,4 +56,4 @@ Learning through personal projects and independent study
 
 ## Languages
 
-English - Intermediate
+English - Intermediate. German - Intermediate.
